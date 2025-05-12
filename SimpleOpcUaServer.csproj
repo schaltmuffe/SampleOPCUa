@@ -12,4 +12,10 @@
       <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Server" Version="1.5.376.213" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Quickstarts.EmptyServer.Config.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
